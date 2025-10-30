@@ -7,23 +7,48 @@ h1, a, p{
     font-family: Comfortaa;
     text-decoration: none;
 }
-
-.ff {
+.background{
     min-height: 99dvh;
     background-image: url('mf.png');
     background-size: cover;
     background-position: center center;
     border-radius: 5vh;
+    padding: 3px;
+}
+.ff {
+    
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 
 }
+.logo{
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    display: block;
+    transform: scale(1.2);
+    
+}
+.but_pos{
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: right;
+}
 .but{
     display: flex;
+    overflow: hidden;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    border-radius: 10vh;
+    padding: 1vh;
+    background-color: rgba(255, 255, 255, 10%);
+    backdrop-filter: blur(10px);
+    height: 7vh;
+    position: relative;
 }
 .ff h1{
     color: white;
