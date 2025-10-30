@@ -9,8 +9,7 @@ h1, a, p{
 }
 
 .ff {
-    min-height: 50vh;
-    max-height: 100vh;
+    min-height: 99vh;
     background-image: url('mf.png');
     background-size: cover;
     background-position: center center;
@@ -34,7 +33,7 @@ h1, a, p{
 
 }
 .ff h1{
-    font-size: 45pt;
+    font-size: 3vi;
 }
 .ff  p{
     font-size: 16pt;
