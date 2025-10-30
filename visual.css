@@ -32,7 +32,7 @@ h1, a, p{
     margin-bottom: 5vh;
 
 }
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .but_info, .but_tel {
       display: block;
       width: 80%;
